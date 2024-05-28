@@ -1,19 +1,20 @@
 //
-//  ViewController.swift
+//  PlayList.swift
 //  RadioTatina
 //
 //  Created by Tatina Dzhakypbekova on 28/5/24.
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
+class PlayList: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
+        
     }
 
-
+    
 }
-

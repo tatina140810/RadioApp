@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		AF573B012C05A22C003001B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B002C05A22C003001B9 /* AppDelegate.swift */; };
 		AF573B032C05A22C003001B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B022C05A22C003001B9 /* SceneDelegate.swift */; };
-		AF573B052C05A22C003001B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B042C05A22C003001B9 /* ViewController.swift */; };
-		AF573B082C05A22C003001B9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF573B072C05A22C003001B9 /* Base */; };
+		AF573B052C05A22C003001B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B042C05A22C003001B9 /* HomeView.swift */; };
 		AF573B0A2C05A22D003001B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF573B092C05A22D003001B9 /* Assets.xcassets */; };
 		AF573B0D2C05A22D003001B9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF573B0C2C05A22D003001B9 /* Base */; };
+		AF573B162C05AB98003001B9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF573B152C05AB98003001B9 /* SnapKit */; };
+		AF573B182C05AB98003001B9 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AF573B172C05AB98003001B9 /* SnapKit-Dynamic */; };
+		AF573B1A2C05AE7A003001B9 /* HexExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B192C05AE7A003001B9 /* HexExtention.swift */; };
+		AF573B1C2C05B37A003001B9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B1B2C05B37A003001B9 /* TabBar.swift */; };
+		AF573B1E2C05B429003001B9 /* AnnounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B1D2C05B429003001B9 /* AnnounceView.swift */; };
+		AF573B202C05B4D8003001B9 /* PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B1F2C05B4D8003001B9 /* PlayList.swift */; };
+		AF573B222C05B566003001B9 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B212C05B565003001B9 /* InfoView.swift */; };
+		AF573B262C05BB11003001B9 /* CustomNavigationBarInMuzicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B252C05BB11003001B9 /* CustomNavigationBarInMuzicPage.swift */; };
+		AF573B282C05BBF4003001B9 /* ButtonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B272C05BBF4003001B9 /* ButtonSettings.swift */; };
+		AF573B2E2C05BCB3003001B9 /* FontsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B292C05BCB2003001B9 /* FontsEnum.swift */; };
+		AF573B2F2C05BCB3003001B9 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF573B2A2C05BCB2003001B9 /* Satoshi-Bold.otf */; };
+		AF573B302C05BCB3003001B9 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF573B2B2C05BCB2003001B9 /* Satoshi-Italic.otf */; };
+		AF573B312C05BCB3003001B9 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF573B2C2C05BCB2003001B9 /* Satoshi-Regular.otf */; };
+		AF573B332C05BD9B003001B9 /* LabelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF573B322C05BD9B003001B9 /* LabelSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF573AFD2C05A22C003001B9 /* RadioTatina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioTatina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF573B002C05A22C003001B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF573B022C05A22C003001B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF573B042C05A22C003001B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF573B072C05A22C003001B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF573B042C05A22C003001B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AF573B092C05A22D003001B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF573B0C2C05A22D003001B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF573B0E2C05A22E003001B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF573B192C05AE7A003001B9 /* HexExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexExtention.swift; sourceTree = "<group>"; };
+		AF573B1B2C05B37A003001B9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AF573B1D2C05B429003001B9 /* AnnounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnounceView.swift; sourceTree = "<group>"; };
+		AF573B1F2C05B4D8003001B9 /* PlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayList.swift; sourceTree = "<group>"; };
+		AF573B212C05B565003001B9 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		AF573B252C05BB11003001B9 /* CustomNavigationBarInMuzicPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarInMuzicPage.swift; sourceTree = "<group>"; };
+		AF573B272C05BBF4003001B9 /* ButtonSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSettings.swift; sourceTree = "<group>"; };
+		AF573B292C05BCB2003001B9 /* FontsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsEnum.swift; sourceTree = "<group>"; };
+		AF573B2A2C05BCB2003001B9 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		AF573B2B2C05BCB2003001B9 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		AF573B2C2C05BCB2003001B9 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		AF573B322C05BD9B003001B9 /* LabelSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF573B162C05AB98003001B9 /* SnapKit in Frameworks */,
+				AF573B182C05AB98003001B9 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,58 @@
 		AF573AFF2C05A22C003001B9 /* RadioTatina */ = {
 			isa = PBXGroup;
 			children = (
+				AF573B352C05D569003001B9 /* MVC */,
+				AF573B342C05D534003001B9 /* Settings */,
 				AF573B002C05A22C003001B9 /* AppDelegate.swift */,
 				AF573B022C05A22C003001B9 /* SceneDelegate.swift */,
-				AF573B042C05A22C003001B9 /* ViewController.swift */,
-				AF573B062C05A22C003001B9 /* Main.storyboard */,
 				AF573B092C05A22D003001B9 /* Assets.xcassets */,
 				AF573B0B2C05A22D003001B9 /* LaunchScreen.storyboard */,
 				AF573B0E2C05A22E003001B9 /* Info.plist */,
+				AF573B2D2C05BCB2003001B9 /* Fonts */,
 			);
 			path = RadioTatina;
+			sourceTree = "<group>";
+		};
+		AF573B2D2C05BCB2003001B9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF573B292C05BCB2003001B9 /* FontsEnum.swift */,
+				AF573B2A2C05BCB2003001B9 /* Satoshi-Bold.otf */,
+				AF573B2B2C05BCB2003001B9 /* Satoshi-Italic.otf */,
+				AF573B2C2C05BCB2003001B9 /* Satoshi-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AF573B342C05D534003001B9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AF573B192C05AE7A003001B9 /* HexExtention.swift */,
+				AF573B272C05BBF4003001B9 /* ButtonSettings.swift */,
+				AF573B322C05BD9B003001B9 /* LabelSettings.swift */,
+				AF573B252C05BB11003001B9 /* CustomNavigationBarInMuzicPage.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AF573B352C05D569003001B9 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF573B1B2C05B37A003001B9 /* TabBar.swift */,
+				AF573B362C05D57C003001B9 /* Views */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		AF573B362C05D57C003001B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF573B042C05A22C003001B9 /* HomeView.swift */,
+				AF573B1D2C05B429003001B9 /* AnnounceView.swift */,
+				AF573B1F2C05B4D8003001B9 /* PlayList.swift */,
+				AF573B212C05B565003001B9 /* InfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,10 @@
 			dependencies = (
 			);
 			name = RadioTatina;
+			packageProductDependencies = (
+				AF573B152C05AB98003001B9 /* SnapKit */,
+				AF573B172C05AB98003001B9 /* SnapKit-Dynamic */,
+			);
 			productName = RadioTatina;
 			productReference = AF573AFD2C05A22C003001B9 /* RadioTatina.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = AF573AF42C05A22C003001B9;
+			packageReferences = (
+				AF573B142C05AB98003001B9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = AF573AFE2C05A22C003001B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF573B312C05BCB3003001B9 /* Satoshi-Regular.otf in Resources */,
+				AF573B2F2C05BCB3003001B9 /* Satoshi-Bold.otf in Resources */,
 				AF573B0A2C05A22D003001B9 /* Assets.xcassets in Resources */,
 				AF573B0D2C05A22D003001B9 /* Base in Resources */,
-				AF573B082C05A22C003001B9 /* Base in Resources */,
+				AF573B302C05BCB3003001B9 /* Satoshi-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +216,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF573B052C05A22C003001B9 /* ViewController.swift in Sources */,
+				AF573B282C05BBF4003001B9 /* ButtonSettings.swift in Sources */,
+				AF573B222C05B566003001B9 /* InfoView.swift in Sources */,
+				AF573B1A2C05AE7A003001B9 /* HexExtention.swift in Sources */,
+				AF573B1E2C05B429003001B9 /* AnnounceView.swift in Sources */,
+				AF573B202C05B4D8003001B9 /* PlayList.swift in Sources */,
+				AF573B052C05A22C003001B9 /* HomeView.swift in Sources */,
 				AF573B012C05A22C003001B9 /* AppDelegate.swift in Sources */,
 				AF573B032C05A22C003001B9 /* SceneDelegate.swift in Sources */,
+				AF573B2E2C05BCB3003001B9 /* FontsEnum.swift in Sources */,
+				AF573B1C2C05B37A003001B9 /* TabBar.swift in Sources */,
+				AF573B262C05BB11003001B9 /* CustomNavigationBarInMuzicPage.swift in Sources */,
+				AF573B332C05BD9B003001B9 /* LabelSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF573B062C05A22C003001B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF573B072C05A22C003001B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF573B0B2C05A22D003001B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +376,6 @@
 				INFOPLIST_FILE = RadioTatina/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +403,6 @@
 				INFOPLIST_FILE = RadioTatina/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +440,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF573B142C05AB98003001B9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF573B152C05AB98003001B9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF573B142C05AB98003001B9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AF573B172C05AB98003001B9 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF573B142C05AB98003001B9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF573AF52C05A22C003001B9 /* Project object */;
 }
