@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Карточки с прогнозом погоды.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

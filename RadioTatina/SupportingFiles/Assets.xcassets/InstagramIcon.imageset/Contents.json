@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "иконка инстаграм.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

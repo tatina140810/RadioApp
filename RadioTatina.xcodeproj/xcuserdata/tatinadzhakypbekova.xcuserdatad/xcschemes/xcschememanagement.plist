@@ -7,7 +7,20 @@
 		<key>RadioTatina.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AFA7FE6C2D32D2250056D511</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFC66A722D061BB30014E504</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
